@@ -29,11 +29,11 @@ void Main()
 	constexpr int zombie_start = Fighter::lenght - Fighter::size.x;
 
 	std::vector<SDL_Texture *> textures;
-	textures.push_back(out.LoadImg("img/dog.png"));
-	textures.push_back(out.LoadImg("img/decelerator.png"));
+	textures.push_back(out.LoadImg("img/dog.jpg"));
+	textures.push_back(out.LoadImg("img/decelerator.jpg"));
 	textures.push_back(out.LoadImg("img/archer.png"));
 	textures.push_back(out.LoadImg("img/healer.png"));
-	textures.push_back(out.LoadImg("img/cat.png"));
+	textures.push_back(out.LoadImg("img/cat.jpg"));
 	textures.push_back(out.LoadImg("img/knight.png"));
 	textures.push_back(out.LoadImg("img/bribegiver.png"));
 	textures.push_back(out.LoadImg("img/cart.png"));
